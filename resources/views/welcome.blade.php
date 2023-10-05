@@ -89,7 +89,7 @@
   <div class="card-body">
     <h5 class="card-title">HUANUCO</h5>
     <p class="card-text">La ciudad de Huánuco fue fundada por los españoles el 15 de agosto de 1539; sin embargo, ante los ataques de los locales liderados por Illathupa, capitán de Manco Inca y líder de la resistencia contra los españoles, se terminó cambiando la fecha de proclamación al 15 de agosto de 1540.</p>
-    <a href="#" class="btn btn-primary">VISITAR</a>
+    <a href="https://www.ugel302.gob.pe/noticias/breve-resena-historia-huanuco" class="btn-primary" target="_blank">VISITAR</a>
   </div>
 </div>
 
@@ -105,6 +105,97 @@
     <a class="  btn btn-primary disabled placeholder col-6" aria-disabled="true"></a>
   </div>
 </div>
+<div class="card1">
+  <img src="https://www.aboutespanol.com/thmb/a1Zi86rjUUMfzJxXnTWnWzXBzi0=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/plaza-de-armas-de-huanuco-56a2a6e93df78cf77278717c.JPG" class="card-img-top" alt="huanuco">
+
+  <div class="card-body">
+    <h5 class="card-title">HUANUCO</h5>
+    <p class="card-text">La ciudad de Huánuco fue fundada por los españoles el 15 de agosto de 1539; sin embargo, ante los ataques de los locales liderados por Illathupa, capitán de Manco Inca y líder de la resistencia contra los españoles, se terminó cambiando la fecha de proclamación al 15 de agosto de 1540.</p>
+    <a href="https://www.ugel302.gob.pe/noticias/breve-resena-historia-huanuco" class="btn-primary" target="_blank">VISITAR</a>
+  </div>
+</div>
+
+<div class="card1" aria-hidden="true">
+  <img src="https://www.adslzone.net/app/uploads-adslzone.net/2019/04/borrar-fondo-imagen-1200x675.jpg" class="mario" alt="mario">
+  <div class="card-body">
+    <h5 class="card-title placeholder-glow">
+      <span class="placeholder col-6"></span>
+    </h5>
+    <p class="card-text placeholder-glow">
+      <span class="placeholder col-7"></span>
+    </p>
+    <a class="  btn btn-primary disabled placeholder col-6" aria-disabled="true"></a>
+  </div>
+</div>
+<div class="card2">
+  <img src="https://www.aboutespanol.com/thmb/a1Zi86rjUUMfzJxXnTWnWzXBzi0=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/plaza-de-armas-de-huanuco-56a2a6e93df78cf77278717c.JPG" class="card-img-top" alt="huanuco">
+
+  <div class="card-body">
+    <h5 class="card-title">HUANUCO</h5>
+    <p class="card-text">La ciudad de Huánuco fue fundada por los españoles el 15 de agosto de 1539; sin embargo, ante los ataques de los locales liderados por Illathupa, capitán de Manco Inca y líder de la resistencia contra los españoles, se terminó cambiando la fecha de proclamación al 15 de agosto de 1540.</p>
+    <a href="https://www.ugel302.gob.pe/noticias/breve-resena-historia-huanuco" class="btn-primary" target="_blank">VISITAR</a>
+  </div>
+</div>
+
+<div class="card2+" aria-hidden="true">
+  <img src="https://www.adslzone.net/app/uploads-adslzone.net/2019/04/borrar-fondo-imagen-1200x675.jpg" class="mario" alt="mario">
+  <div class="card-body">
+    <h5 class="card-title placeholder-glow">
+      <span class="placeholder col-6"></span>
+    </h5>
+    <p class="card-text placeholder-glow">
+      <span class="placeholder col-7"></span>
+    </p>
+    <a class="  btn btn-primary disabled placeholder col-6" aria-disabled="true"></a>
+  </div>
+</div>
+
+<style>
+        .card {
+            position: relative;
+            overflow: hidden;
+            border-radius: 16px;
+            margin: 20px;
+            width: 300px;
+        }
+
+        .card img {
+            max-width: 100%;
+            height: auto;
+            transition: transform 0.8s;
+        }
+
+        .card:hover img {
+            transform: scale(1.1);
+        }
+
+        .overlay {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+            opacity: 0;
+            transition: opacity 0.5s;
+        }
+
+        .card:hover .overlay {
+            opacity: 1;
+        }
+
+        .card-body {
+            position: relative;
+            z-index: 1;
+        }
+
+        .card-title,
+        .card-text,
+        .btn {
+            color: black;
+        }
+    </style>
 <style>
     /* Estilo personalizado para las tarjetas */
 .card {

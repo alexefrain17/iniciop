@@ -52,6 +52,11 @@
     <body class="antialiased" background="https://portal.andina.pe/EDPFotografia3/thumbnail/2018/08/14/000525066M.jpg">
       <div class="centered-title">
         <h1><?php echo "TURISMO HUANUCO"; ?></h1>
+        <style>
+        h1 {
+            color: aquamarine; /* Cambia el color al que desees */
+        }
+    </style>
         <nav>
         <ul>
             <li><a href="index.php">Inicio</a></li>
@@ -66,12 +71,9 @@
                 // Arreglo de elementos de navegación
                 $navItems = [
                     'Inicio' => 'index.php',
-                    'Alojamientos' => 'alojamiento.php',
-                    'trasporte' => 'servicios.php',
                     'Paquetes' => 'contacto.php',
                     'Ofertas' => 'ga.php',
                     'Rentas' => 'acerca.php',
-                    'Actividades' => 'servicios.php',
                     'Traslados' => 'contacto.php'
                 ];
 
@@ -131,7 +133,7 @@
   <img src="https://www.aboutespanol.com/thmb/a1Zi86rjUUMfzJxXnTWnWzXBzi0=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/plaza-de-armas-de-huanuco-56a2a6e93df78cf77278717c.JPG" class="card-img-top" alt="huanuco">
 
   <div class="card-body">
-    <h5 class="card-title">HUANUCO</h5>
+    <h5 class="card-title">LUGARES TURISTICOS</h5>
     <p class="card-text">qqnepepor los españoles el 15 de agosto de 1539; sin embargo, ante los ataques de los locales liderados por Illathupa, capitán de Manco Inca y líder de la resistencia contra los españoles, se terminó cambiando la fecha de proclamación al 15 de agosto de 1540.</p>
     <a href="https://www.ugel302.gob.pe/noticias/breve-resena-historia-huanuco" class="btn-primary" target="_blank">VISITAR</a>
   </div>

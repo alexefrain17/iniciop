@@ -49,9 +49,9 @@
         }
         </style>
     </head>
-    <body class="antialiased">
+    <body class="antialiased" background="https://portal.andina.pe/EDPFotografia3/thumbnail/2018/08/14/000525066M.jpg">
       <div class="centered-title">
-        <h1><?php echo "turismos en huanuco"; ?></h1>
+        <h1><?php echo "TURISMO HUANUCO"; ?></h1>
         <nav>
         <ul>
             <li><a href="index.php">Inicio</a></li>
@@ -109,7 +109,7 @@
   <img src="https://www.aboutespanol.com/thmb/a1Zi86rjUUMfzJxXnTWnWzXBzi0=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/plaza-de-armas-de-huanuco-56a2a6e93df78cf77278717c.JPG" class="card-img-top" alt="huanuco">
 
   <div class="card-body">
-    <h5 class="card-title">HUANUCO</h5>
+    <h5 class="card-title">TRAMSPORTE</h5>
     <p class="card-text">La ciudad de Huánuco fue fundada por los españoles el 15 de agosto de 1539; sin embargo, ante los ataques de los locales liderados por Illathupa, capitán de Manco Inca y líder de la resistencia contra los españoles, se terminó cambiando la fecha de proclamación al 15 de agosto de 1540.</p>
     <a href="https://www.ugel302.gob.pe/noticias/breve-resena-historia-huanuco" class="btn-primary" target="_blank">VISITAR</a>
   </div>
@@ -132,12 +132,12 @@
 
   <div class="card-body">
     <h5 class="card-title">HUANUCO</h5>
-    <p class="card-text">La ciudad de Huánuco fue fundada por los españoles el 15 de agosto de 1539; sin embargo, ante los ataques de los locales liderados por Illathupa, capitán de Manco Inca y líder de la resistencia contra los españoles, se terminó cambiando la fecha de proclamación al 15 de agosto de 1540.</p>
+    <p class="card-text">qqnepepor los españoles el 15 de agosto de 1539; sin embargo, ante los ataques de los locales liderados por Illathupa, capitán de Manco Inca y líder de la resistencia contra los españoles, se terminó cambiando la fecha de proclamación al 15 de agosto de 1540.</p>
     <a href="https://www.ugel302.gob.pe/noticias/breve-resena-historia-huanuco" class="btn-primary" target="_blank">VISITAR</a>
   </div>
 </div>
 
-<div class="card2+" aria-hidden="true">
+<div class="card2   a" aria-hidden="true">
   <img src="https://www.adslzone.net/app/uploads-adslzone.net/2019/04/borrar-fondo-imagen-1200x675.jpg" class="mario" alt="mario">
   <div class="card-body">
     <h5 class="card-title placeholder-glow">
@@ -151,6 +151,25 @@
 </div>
 
 <style>
+    .card,
+.card1,
+.card2 {
+    position: relative;
+    overflow: hidden;
+    border-radius: 16px;
+    margin: 20px;
+    width: 300px;
+    float: left; /* Alinea las tarjetas horizontalmente */
+    clear: none; /* Evita que las tarjetas se envuelvan en una nueva línea */
+    margin-right: 20px; /* Espacio entre las tarjetas */
+}
+
+/* Estilo para el contenedor */
+.card-container {
+    width: 100%; /* Ancho completo del contenedor */
+    overflow: auto; /* Evita que las tarjetas se desborden */
+    padding: 20px; /* Espacio interno para separar las tarjetas del borde */
+}
         .card {
             position: relative;
             overflow: hidden;
@@ -158,7 +177,24 @@
             margin: 20px;
             width: 300px;
         }
-
+        
+        .card1 {
+            position: relative;
+            overflow: hidden;
+            border-radius: 16px;
+            margin: 20px;
+            width: 300px;
+            background-color: #e5e7eb;
+        }
+        
+        .card2 {
+            position: relative;
+            overflow: hidden;
+            border-radius: 16px;
+            margin: 20px;
+            width: 300px;
+            background-color: #e5e7eb;
+        }
         .card img {
             max-width: 100%;
             height: auto;
@@ -193,7 +229,7 @@
         .card-title,
         .card-text,
         .btn {
-            color: black;
+            color: #333;
         }
     </style>
 <style>
@@ -204,6 +240,7 @@
     padding: 10px;
     max-width: 300px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: #e5e7eb;
 }
 
 .card-img-top {

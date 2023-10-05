@@ -19,6 +19,32 @@
             font-size: 50px;
             text-align: center;
             
+             
+        }
+        .fondo {
+            background-color: antiquewhite;
+        }
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            background-color: #333;
+            text-align: center; /* Centra el texto en la barra de navegación */
+        }
+
+        nav li {
+            display: inline; /* Muestra los elementos en línea */
+            margin: 0 20px; /* Espaciado entre elementos de navegación */
+        }
+
+        nav a {
+            text-decoration: none; /* Quita la subrayado de los enlaces */
+            color: #fff; /* Color del texto de los enlaces */
+            font-weight: bold; /* Texto en negrita */
+        }
+
+        nav a:hover {
+            color: #ff9900;
         }
         </style>
     </head>

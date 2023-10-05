@@ -25,6 +25,14 @@
     <body class="antialiased">
       <div class="centered-title">
         <h1><?php echo "turismos en huanuco"; ?></h1>
+        <nav>
+        <ul>
+            <li><a href="index.php">Inicio</a></li>
+            <li><a href="acerca.php">Acerca de</a></li>
+            <li><a href="servicios.php">Servicios</a></li>
+            <li><a href="contacto.php">Contacto</a></li>
+        </ul>
+    </nav>
       </div>
     </body>
 </html>

@@ -84,12 +84,12 @@
         </nav>
       </div>
       <div class="card">
-  <img src="..." class="card-img-top" alt="...">
+  <img src="https://www.aboutespanol.com/thmb/a1Zi86rjUUMfzJxXnTWnWzXBzi0=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/plaza-de-armas-de-huanuco-56a2a6e93df78cf77278717c.JPG" class="card-img-top" alt="huanuco">
 
   <div class="card-body">
     <h5 class="card-title">HUANUCO</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
+    <p class="card-text">La ciudad de Huánuco fue fundada por los españoles el 15 de agosto de 1539; sin embargo, ante los ataques de los locales liderados por Illathupa, capitán de Manco Inca y líder de la resistencia contra los españoles, se terminó cambiando la fecha de proclamación al 15 de agosto de 1540.</p>
+    <a href="#" class="btn btn-primary">VISITAR</a>
   </div>
 </div>
 

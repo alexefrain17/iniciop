@@ -57,14 +57,6 @@
             color: aquamarine; /* Cambia el color al que desees */
         }
     </style>
-        <nav>
-        <ul>
-            <li><a href="index.php">Inicio</a></li>
-            <li><a href="acerca.php">Acerca de</a></li>
-            <li><a href="servicios.php">Servicios</a></li>
-            <li><a href="contacto.php">Contacto</a></li>
-        </ul>
-    </nav>
     <nav>
             <ul>
                 <?php
@@ -96,7 +88,7 @@
 </div>
 
 <div class="card" aria-hidden="true">
-  <img src="https://www.adslzone.net/app/uploads-adslzone.net/2019/04/borrar-fondo-imagen-1200x675.jpg" class="mario" alt="mario">
+  <img src="https://th.bing.com/th/id/R.928740bcf73c3f7b43ab2818b72c5bfc?rik=OWMqCd7M33Rpdw&riu=http%3a%2f%2f2.bp.blogspot.com%2f-6ItTo7hyuFM%2fVK3SigeBjmI%2fAAAAAAAAAJM%2fsYdHdvy3wIs%2fs1600%2f2.jpg&ehk=ZTF%2fUoioqRmYss5RDb%2bR4Kx6slA2gfc0BiTdqh28GlQ%3d&risl=&pid=ImgRaw&r=0&sres=1&sresct=1" class="manos" alt="manos">
   <div class="card-body">
     <h5 class="card-title placeholder-glow">
       <span class="placeholder col-6"></span>
@@ -112,23 +104,12 @@
 
   <div class="card-body">
     <h5 class="card-title">TRAMSPORTE</h5>
-    <p class="card-text">La ciudad de Huánuco fue fundada por los españoles el 15 de agosto de 1539; sin embargo, ante los ataques de los locales liderados por Illathupa, capitán de Manco Inca y líder de la resistencia contra los españoles, se terminó cambiando la fecha de proclamación al 15 de agosto de 1540.</p>
-    <a href="https://www.ugel302.gob.pe/noticias/breve-resena-historia-huanuco" class="btn-primary" target="_blank">VISITAR</a>
+    <p class="card-text">La región cuenta con dos terminales aéreos regionales: el aeropuerto Alférez FAP David Figueroa Fernandini, el cual es el más concurrido de la localidad, y el aeropuerto de Tingo María. Durante abril y setiembre del 2020 la llegada de vuelos a ambos aeropuertos fue mínimas debido a las restricciones de viajes. Sin embargo, en el 2021, los vuelos de entrada a ambos aeropuertos han aumentado significativamente y llegaron a superar los recibidos en el periodo prepandemia, posiblemente impulsados por la reapertura de los atractivos turísticos a inicio del año.</p>
+    <a href="https://www.ipe.org.pe/portal/huanuco-sector-turismo-muestra-indicios-de-recuperacion/" class="btn-primary" target="_blank">VISITAR</a>
   </div>
 </div>
 
-<div class="card1" aria-hidden="true">
-  <img src="https://www.adslzone.net/app/uploads-adslzone.net/2019/04/borrar-fondo-imagen-1200x675.jpg" class="mario" alt="mario">
-  <div class="card-body">
-    <h5 class="card-title placeholder-glow">
-      <span class="placeholder col-6"></span>
-    </h5>
-    <p class="card-text placeholder-glow">
-      <span class="placeholder col-7"></span>
-    </p>
-    <a class="  btn btn-primary disabled placeholder col-6" aria-disabled="true"></a>
-  </div>
-</div>
+
 <div class="card2">
   <img src="https://www.aboutespanol.com/thmb/a1Zi86rjUUMfzJxXnTWnWzXBzi0=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/plaza-de-armas-de-huanuco-56a2a6e93df78cf77278717c.JPG" class="card-img-top" alt="huanuco">
 
@@ -139,18 +120,6 @@
   </div>
 </div>
 
-<div class="card2   a" aria-hidden="true">
-  <img src="https://www.adslzone.net/app/uploads-adslzone.net/2019/04/borrar-fondo-imagen-1200x675.jpg" class="mario" alt="mario">
-  <div class="card-body">
-    <h5 class="card-title placeholder-glow">
-      <span class="placeholder col-6"></span>
-    </h5>
-    <p class="card-text placeholder-glow">
-      <span class="placeholder col-7"></span>
-    </p>
-    <a class="  btn btn-primary disabled placeholder col-6" aria-disabled="true"></a>
-  </div>
-</div>
 
 <style>
     .card,

@@ -100,7 +100,7 @@
   </div>
 </div>
 <div class="card1">
-  <img src="https://www.aboutespanol.com/thmb/a1Zi86rjUUMfzJxXnTWnWzXBzi0=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/plaza-de-armas-de-huanuco-56a2a6e93df78cf77278717c.JPG" class="card-img-top" alt="huanuco">
+  <img src="https://th.bing.com/th/id/R.9bc8ae10b56f3fe949f7b70918410c05?rik=Lz8xvcHkcA9SjA&pid=ImgRaw&r=0" class="card-img-top" alt="huanuco">
 
   <div class="card-body">
     <h5 class="card-title">TRAMSPORTE</h5>

@@ -57,25 +57,29 @@
             color: aquamarine; /* Cambia el color al que desees */
         }
     </style>
-    <nav>
-            <ul>
-                <?php
-                // Arreglo de elementos de navegación
-                $navItems = [
-                    'Inicio' => 'index.php',
-                    'Paquetes' => 'contacto.php',
-                    'Ofertas' => 'ga.php',
-                    'Rentas' => 'acerca.php',
-                    'Traslados' => 'contacto.php'
-                ];
-
-                // Generar los enlaces de navegación
-                foreach ($navItems as $nombre => $url) {
-                    echo "<li><a href='$url'>$nombre</a></li>";
-                }
-                ?>
-            </ul>
-        </nav>
+    <nav class="nav">
+        <div class="container">
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/paq">Paquetes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/servicios">Servicios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/cont">Contacto</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/inicio-sesion">Iniciar Sesión</a>
+                    </li> <!-- Agrega este elemento para el botón de inicio de sesión -->
+                </ul>
+            </div>
+        </div>
+    </nav>
       </div>
       <div class="card">
   <img src="https://www.aboutespanol.com/thmb/a1Zi86rjUUMfzJxXnTWnWzXBzi0=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/plaza-de-armas-de-huanuco-56a2a6e93df78cf77278717c.JPG" class="card-img-top" alt="huanuco">
@@ -111,12 +115,12 @@
 
 
 <div class="card2">
-  <img src="https://www.aboutespanol.com/thmb/a1Zi86rjUUMfzJxXnTWnWzXBzi0=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/plaza-de-armas-de-huanuco-56a2a6e93df78cf77278717c.JPG" class="card-img-top" alt="huanuco">
+  <img src="https://th.bing.com/th/id/R.ec6503b26361746262574edab2e7fa2f?rik=cyKo7smlKJqFdw&pid=ImgRaw&r=0" class="card-img-top" alt="huanuco">
 
   <div class="card-body">
     <h5 class="card-title">LUGARES TURISTICOS</h5>
-    <p class="card-text">qqnepepor los españoles el 15 de agosto de 1539; sin embargo, ante los ataques de los locales liderados por Illathupa, capitán de Manco Inca y líder de la resistencia contra los españoles, se terminó cambiando la fecha de proclamación al 15 de agosto de 1540.</p>
-    <a href="https://www.ugel302.gob.pe/noticias/breve-resena-historia-huanuco" class="btn-primary" target="_blank">VISITAR</a>
+    <p class="card-text">Según el estudio de Promperú y la Dircetur Huánuco, las razones por las que el turista decidió venir a Huánuco en un 63% fue por su paisajes y naturaleza; el 37% por el clima cálido; 27% tener familiares y amigos; 27% para descansar y relajarse; 23% por las fiestas patronales y costumbristas; 23% por la variedad de atractivos turísticos; 18% por la buena gastronomía; 16% por la diversión 16%; y un 9% llega para conocer culturas diferentes.</p>
+    <a href="https://huanuco.info/lugares-turisticos/" class="btn-primary" target="_blank">VISITAR</a>
   </div>
 </div>
 

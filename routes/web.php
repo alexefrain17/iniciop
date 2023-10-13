@@ -17,5 +17,8 @@ Route::get('/', function () {
     return view('welcome');
 });
 Route::get('/paq', function () {
-    return view('paquetes');
+    return view('paquete');
+});
+Route::get('/servicios', function () {
+    return view('servisios');
 });

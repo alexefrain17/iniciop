@@ -22,3 +22,9 @@ Route::get('/paq', function () {
 Route::get('/servicios', function () {
     return view('servisios');
 });
+Route::get('/cont', function () {
+    return view('contacto');
+});
+Route::get('/inicio-sesion', function () {
+    return view('iniciar');
+});

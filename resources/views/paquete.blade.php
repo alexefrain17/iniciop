@@ -31,8 +31,9 @@
         }
     </style>
 </head>
-<body>
+<body class="antialiased" background="https://th.bing.com/th/id/R.5c4aff1fc1613de57977b4832c37b868?rik=cXizJSol40e30w&pid=ImgRaw&r=0">>
 <h1>Descubre Nuestros Paquetes de Vuelos</h1>
+
 <?php
 // Definir los precios de los paquetes
 $precio_paquete_1 = 100;
@@ -153,7 +154,7 @@ $color_paquete_3 = ($precio_paquete_3 > 200) ? 'green' : 'red';
 /* Estilos para el mensaje obtenido */
 .mensaje {
     font-style: italic;
-    color: #333;
+    color:red;
 }
 
 </style>    
